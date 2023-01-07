@@ -69,7 +69,7 @@ public class InventoryClickListener implements Listener {
 
             // ---------------------------------------
 
-
+            p.closeInventory();
             cashShop.openEditor();
         }
     }
