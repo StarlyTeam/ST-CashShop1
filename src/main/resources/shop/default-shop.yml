@@ -1,0 +1,15 @@
+shop:
+  title: "기본 상점"
+  size: 27
+
+items:
+  '0':
+    material: "CHEST"
+    amount: 1
+    meta:
+      displayName: "§a§l상점"
+      lores:
+        - "§7상점에 오신 것을 환영합니다!"
+    price:
+      buy: 0
+      sell: -1

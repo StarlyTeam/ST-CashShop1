@@ -1,0 +1,48 @@
+name: ST-CashShop
+main: net.starly.cashshop.CashShopMain
+author: Starly Team
+website: https://discord.gg/TF8jqSJjCG
+
+description: CashShop Plugin.
+
+api-version: 1.16
+version: 1.0
+
+softdepend:
+  - ST-Core
+  - PlaceholderAPI
+
+commands:
+  cash:
+    aliases: [캐시]
+
+  cashshop:
+    aliases: [캐시상점, cs]
+
+permissions:
+  starly.cashshop.cash.check.self:
+    description: 자신의 캐시를 확인할 수 있는 권한
+    default: true
+  starly.cashshop.cash.check.other:
+    description: 다른 플레이어의 캐시를 확인할 수 있는 권한
+    default: op
+
+  starly.cashshop.cash.add:
+    description: 캐시를 추가할 수 있는 권한
+    default: op
+
+  starly.cashshop.cash.remove:
+    description: 캐시를 제거할 수 있는 권한
+    default: op
+
+  starly.cashshop.cash.set:
+    description: 캐시를 설정할 수 있는 권한
+    default: op
+
+  starly.cashshop.cash.reset:
+    description: 캐시를 초기화할 수 있는 권한
+    default: op
+
+  starly.cashshop.cash.give:
+    description: 캐시를 선물할 수 있는 권한
+    default: op
